@@ -28,7 +28,7 @@ jobs:
         java-version: '1.8'
         distribution: 'temurin'
     - name: grant execute permission to gradle
-        chmod +x gradlew 
+       run chmod +x gradlew 
     
     # Configure Gradle for optimal use in GitHub Actions, including caching of downloaded dependencies.
     # See: https://github.com/gradle/actions/blob/main/setup-gradle/README.md
